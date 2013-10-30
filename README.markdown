@@ -57,7 +57,8 @@ Example
 
     cap db:pull
     cap production db:pull # if you are using capistrano-ext to have multistages
-
+    
+    cap db:pull FORCE=true # if you want to skip the prompt
 
 Contributors
 ============
